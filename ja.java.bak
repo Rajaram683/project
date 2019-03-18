@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class StarTriangle
+{
+public static void main(String[] args) 
+{Scanner sc=new Scanner(System.in);
+System.out.println("enter a no.");
+int n=sc.nextInt();
+int i,j,k;
+int starts=1;
+for(i=1; i<=n; i++)
+{
+for(j=1;j<=n-i; j++)
+{System.out.print(" ");
+}
+for(k=1;k<=starts;k++){
+	if(k==1||k==starts||i==n)
+		System.out.print("*");
+else System.out.print(" ");
+}
+System.out.println("");
+
+start=2;
+}
+
+
+}
+}

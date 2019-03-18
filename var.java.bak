@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class  I
+{
+	public static void main(String[] args) 
+	{
+		 Scanner scn=new Scanner(System.in);  
+		System.out.println("enter a string");
+		String s= scn.next();
+		System.out.println("enter a number");
+		int i= scn .nextInt();
+		System.out.println("enter a decimal");
+		double d= scn.nextDouble;
+		System.out.println("variable of s&n&d");
+		System.out.println("s");
+		System.out.println("n");
+		System.out.println("d");
+
+
+	}
+}
